@@ -1,11 +1,11 @@
 /*	Author: ejack023
  *	Lab Section: 023
- *	Assignment: Lab #5  Exercise #1
+ *	Assignment: Lab #5  Exercise #3
  *
  *	I acknowledge all content contained herein, excluding template or example
  *	code, is my own original work.
  *
- *	Demo Link: https://www.youtube.com/watch?v=POguTficzFI&ab_channel=EthanJackson
+ *	Demo Link: https://www.youtube.com/watch?v=hEWa0BWYVGc&ab_channel=EthanJackson
  */
 #include <avr/io.h>
 #ifdef _SIMULATE_
