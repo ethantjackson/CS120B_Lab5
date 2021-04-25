@@ -5,7 +5,7 @@
  *	I acknowledge all content contained herein, excluding template or example
  *	code, is my own original work.
  *
- *	Demo Link: https://www.youtube.com/watch?v=XPDRP3qZCxE&ab_channel=EthanJackson
+ *	Demo Link: https://www.youtube.com/watch?v=Uzx34V1sQM8&ab_channel=EthanJackson
  */
 #include <avr/io.h>
 #ifdef _SIMULATE_
@@ -55,9 +55,11 @@ void Tick_Fct() {
 		case SM_wait:
 			break;
 		case SM_inc:
+			if (PINC < 9)
 			++PORTC;
 			break;
  		case SM_dec:
+			if (PINC > 0)
 			--PORTC;
 			break;
 		case SM_reset:
